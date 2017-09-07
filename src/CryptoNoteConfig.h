@@ -126,4 +126,8 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
 };
 } // CryptoNote
 
+const std::initializer_list<const char*> SEED_NODES = {
+  "144.76.167.70:15150",
+};
+
 #define ALLOW_DEBUG_COMMANDS
